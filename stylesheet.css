@@ -6,7 +6,7 @@
     font-family: "Minion Pro";
 }
 
-body{
+.bodi{
     background-color: #FEFBF6;
     overflow: hidden;
 }
@@ -120,6 +120,7 @@ body{
     float: left;
     padding-right: 10px;
     padding-left: 10px;
+    cursor: pointer;
 }
 
 .navi a {
@@ -279,4 +280,99 @@ body{
     to {
         transform: translateX(-100%);
     }
+}
+
+.abso{
+    position: absolute;
+    top: 400px;
+    width: 300px;
+    z-index: -10;
+    right: 550px;
+}
+
+.margneg{
+    margin-left: -100px;
+}
+
+
+.wrong{
+    position: absolute;
+    left: 45vw;
+    font-size: 100px !important;
+    z-index: -1;
+}
+
+.wrong1{
+    position: absolute;
+    left: 18vw;
+    padding-top: 200px;
+    width: 500px;
+    z-index: 10;
+}
+
+.wrong2{
+    position: absolute;
+    right: 7vw;
+    padding-top: 533px;
+    width: 500px;
+    z-index: 10;
+}
+
+.wrong3{
+    position: absolute;
+    right: 26vw;
+    padding-top: 350px;
+    width: 350px;
+    z-index: 10;
+}
+
+.wrong4{
+    position: absolute;
+    left: 25vw;
+    padding-top: 550px;
+    width: 500px;
+    z-index: 10;
+}
+
+.bgbl{
+    color: #FEFBF6;
+    background-color: black;
+}
+
+.comp{
+    margin-top: 750px;
+}
+
+.comp2{
+    margin-top: 1000px;
+}
+
+.lasttx{
+    position: absolute;
+    width: 500px;
+    padding-top:80px;
+    left: 100px;
+}
+
+.back{
+
+    position: absolute;
+    color:#444A43 ;
+    padding-top:40px;
+    margin-left: 40px;
+    padding-bottom:100px;
+    z-index: 30;
+
+}
+
+.seta3{
+    height: 80px;
+    width: auto;
+    fill: #444A43;
+    transition: all 0.2s ease-out;
+
+}
+
+.seta3:hover{
+    transform: translateX(-10px)
 }
