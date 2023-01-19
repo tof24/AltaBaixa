@@ -11,6 +11,11 @@ body{
     overflow: hidden;
 }
 
+.bodyy{
+    background-color: #FEFBF6;
+    overflow: visible !important;
+}
+
 .center{
     position: absolute;
     top: 50%;
