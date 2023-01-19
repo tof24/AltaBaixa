@@ -8,4 +8,270 @@
 
 body{
     background-color: #FEFBF6;
+    overflow: hidden;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translate(-50%,-50%);
+}
+
+.alta{
+    color: #444A43;
+    font-size: 100px;
+    margin-left: 35px;
+}
+
+.colorgre{
+    color: #444A43;
+}
+
+.baixa{
+    position: absolute;
+    right: 100px;
+    bottom: 30px;
+    color: #444A43;
+    font-size: 100px;
+}
+
+.flipper {
+    transform: rotateY(0deg);
+    transition: transform 0.8s ease-in-out;
+    transform-origin: center;
+    width: 215px;
+}
+
+.flipper:hover {
+    transform: rotateY(-180deg);
+}
+
+@keyframes flip {
+    0% {
+        transform: rotateY(0deg);
+        transform-origin: center;
+    }
+    100% {
+        transform: rotateY(-180deg);
+        transform-origin: center;
+    }
+}
+
+.flipper {
+    animation: flip 0.8s ease-in-out;
+}
+
+.choice{
+    margin-right: 40px;
+    margin-top: 53px;
+    font-size: 20px;
+    text-decoration: none;
+    color:#444A43 ;
+}
+
+.choice:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.choice2{
+    position: absolute;
+    margin-left: 40px;
+    bottom: 60px;
+    font-size: 20px;
+    text-decoration: none;
+    color:#444A43 ;
+}
+
+.choice2:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.icon{
+    width: 50px;
+    height: auto;
+}
+
+.navi {
+    background-color: transparent; /* Background color of the navbar */
+    overflow: hidden; /* Hide overflow */
+    display: grid; /* Use grid layout */
+    place-content: center; /* Center items horizontally */
+
+}
+
+.navi ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+    overflow: hidden; /* Hide overflow */
+    }
+
+.navi li {
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.navi a {
+    display: block; /* Display as block */
+    color: #444A43; /* Text color */
+    font-size: 25px;
+    text-align: center; /* Align text to center */
+    padding: 14px 16px; /* Add padding */
+    text-decoration: none; /* Remove underline */
+}
+
+
+.navi a:hover {
+    background-color: #ddd; /* Change background color on hover */
+    color: black; /* Change text color on hover */
+}
+
+.a{
+    width: 525px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aa{
+    width: 525px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.aaa{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+.aaaa{
+    width: 500px;
+
+}
+.aaaaa{
+    margin-top: 500px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aaaaaa{
+    top: 350px;
+ position: absolute;
+    left: -90px;
+}
+
+.quote0{
+    margin-top: 200px;
+    width: 300px;
+    margin-left: auto;
+}
+
+.esconde{
+    opacity: 0;
+}
+
+.fade-in-letters {
+    animation: fade-in 1.2s ease-in-out forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.index{
+    z-index: 1000;
+}
+
+.cima0{
+    z-index: 10;
+    position: absolute;
+}
+
+.cima1{
+    position: absolute;
+    top: 200px;
+    z-index: 2;
+}
+.cima2{
+    position: absolute;
+    top: 400px;
+    z-index: 1;
+}
+
+.op1{
+    opacity: 80%;
+}
+
+.op2{
+    opacity: 60%;
+}
+.op3{
+    opacity: 40%;
+}
+.op4{
+    opacity: 20%;
+}
+
+.quote1{
+    margin-top: 200px;
+}
+
+.over{
+    position: absolute;
+    right: -150px;
+}
+
+
+.seta2{
+    height: 80px;
+    width: auto;
+    fill: #444A43;
+    transition: all 0.2s ease-out;
+    rotate: 180deg;
+}
+
+.seta2:hover{
+    transform: translateX(-10px)
+}
+
+.seta1{
+    height: 80px;
+    width: auto;
+    fill: #444A43;
+    transition: all 0.2s ease-out;
+
+}
+
+.seta1:hover{
+    transform: translateX(-10px)
+}
+
+.animated-text {
+    position: absolute;
+    top: 48vh;
+    animation: slide-in-right 30s linear forwards;
+    animation-iteration-count: infinite;
+    white-space: nowrap;
+}
+
+@keyframes slide-in-right {
+    from {
+        transform: translateX(50%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
 }
